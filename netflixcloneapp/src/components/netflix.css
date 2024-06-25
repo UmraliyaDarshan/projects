@@ -1,0 +1,231 @@
+body {
+  transform: translateY(-50%,-50%);
+  background-image: url("./netflixbg2.jpg");
+}
+
+h2,
+h4 {
+  color: white;
+  animation: textup 0.5s alternate infinite initial;
+}
+.maindiv {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.header {
+  display: flex;
+}
+.logo {
+  align-items: left;
+  display: flex;
+  width: 80%;
+  justify-content: flex-start;
+}
+.logo img {
+  margin: 10px;
+  padding: 10px;
+  height: 3rem;
+  width: 13rem;
+}
+select {
+  display: flex;
+  justify-content: flex-end;
+  scroll-behavior: smooth;
+  width: 7rem;
+  color: black;
+  height: 2rem;
+  margin: 20px;
+  padding: 20px;
+}
+option {
+  justify-content: center;
+  align-items: center;
+}
+button {
+  background-color: red;
+  height: 3rem;
+  width: 5rem;
+  margin: 20px;
+  padding: 10px;
+  border-radius: 10%;
+}
+main .c1 h1 {
+  color: white;
+  justify-content: center;
+  align-items: center;
+  font-size: 60px;
+  font-weight: 500;
+  margin-top: 5rem;
+}
+
+main .c2 h2,
+h4 {
+  color: white;
+}
+.c2 h2 {
+  width: 100%;
+  height: fit-content;
+}
+.c3 {
+  background-color: rgba(0, 0, 0, 0.01);
+  margin-top: 10rem;
+}
+.c3 input {
+  background-color: rgba(0, 0, 0, 0.01);
+  color: white;
+  height: 30px;
+  width: 20rem;
+  padding: 10px;
+  border: 1px solid white;
+  border-radius: 30px;
+}
+
+.c3 button {
+  background-color: red;
+  color: white;
+  height: 50px;
+  width: 20rem;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 30px;
+}
+.animated-text {
+  color: white;
+}
+.c4 {
+  background-color: black;
+  display: flex;
+  margin-top: 17rem;
+  align-items: center;
+  justify-content: center;
+}
+.msgs {
+  width: 50%;
+}
+.videohero {
+  background-image: url("https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/tv.png");
+  background-size: 100%;
+  width: 50%;
+}
+.videohero video {
+  width: 35rem;
+  align-items: center;
+  justify-content: center;
+  margin-top: 3rem;
+  height: 31rem;
+}
+
+.c5 {
+  display: flex;
+}
+.msghero {
+  background-color: black;
+  width: 100%;
+  color: white;
+  padding-top: 15rem;
+}
+
+.c6 {
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.c6hero{
+  font-size: 20px;
+  color: white;
+}
+.c6video {
+  background-image: url("https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/device-pile-in.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: bottom top;
+  width: 50%;
+  height: 100vh;
+}
+.c6video video {
+  width: 20rem;
+  align-items: center;
+  justify-content: center;
+  margin-top: 3rem;
+  height: 20rem;
+}
+
+
+.c7 {
+  display: flex;
+  background-color: black;
+  width: 100%;
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
+
+.c8accordion{
+  background-color: black;
+  width: 100%;
+  height: 70rem;
+  color: white;
+  border: none;
+  margin: 0;
+}
+.c8accordion p{
+  font-size: 50px;
+  margin: 10px;
+  padding: 10px;
+}
+.c8accordion h3{
+  margin: 5rem;
+  padding: 10px;
+}
+
+footer{
+  font-size: 20px;
+  background-color: black;
+  color: white;
+  list-style: nonez;
+  width: 100%;
+  height: 30rem;
+}
+footer p {
+  text-align: left;
+  text-decoration: underline;
+  margin-left:10rem;
+  padding:1rem;
+}
+footer ul{
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+footer li{
+  color: white;
+  text-decoration: underline;
+  flex-basis: calc(25% - 10px);
+  margin:5px
+}
+footer a{
+  text-decoration: none;
+  color: white;
+}
+footer select{
+  margin-left:10rem;
+  padding:1rem;
+}
+footer h2{
+  text-align: left;
+  margin-left:10rem;
+}
+@keyframes imgup {
+  to {
+    transform: translateY(-20px);
+  }
+}
+@keyframes animated-text {
+  to {
+    transform: translateY(-20px);
+  }
+}
