@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Roboto:ital,wght@1,300&display=swap");
+body {
+    background-image: url("https://img.freepik.com/free-photo/movie-background-collage_23-2149876003.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: fixed;
+  font-family: 'Roboto Condensed', sans-serif;;
+}
+nav .div1 {
+    width: 100%;
+}
+.div1 {
+    display: flex;
+    justify-content: flex-end;
+  width: 70%;
+}
+.div1 h1 {
+  color: white;
+  justify-content: flex-start;
+  margin: 10px;
+  padding: 10px;
+}
+.div1 input,button{
+    margin: 10px;
+    padding: 1%;
+    border-radius: 3rem;
+}
+input {
+  background-color: gainsboro;
+}
+button {
+  background-color: aqua;
+}
+.div2 {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+.listcharacter {
+  display: flex;
+  justify-content: center;
+  background-color: antiquewhite;
+  align-items: center;
+  border: 1px solid black;
+  margin: 10px;
+  padding: 10px;
+  width: 90vh;
+  height: 70vh;
+  border-radius: 10%;
+}
+.listcharacter img {
+  border-radius: 20%;
+  margin: 10px;
+  padding: 10px;
+  height: 25vh;
+  width: 30vh;
+}
+.listcharacter h3 {
+  margin: 0%;
+  width: auto;
+}
+.displaydata {
+  justify-content: center;
+  align-items: center;
+}
+
+.imgzoom {
+  transition: transform 0.3s;
+}
+.imgzoom:hover {
+  transform: scale(1.1);
+}
+
+.imgfade {
+  transition: opacity 0.3s;
+}
+
+.imgfade:hover {
+  opacity: 0.7;
+}
+
+
+@keyframes slideIn {
+    from {
+      transform: translateX(-100%)
+    }
+    to {
+      transform: translateX(0); 
+    }
+  }
+  
+  .slide-in {
+    animation: slideIn 1s ease-in-out; 
+  }
